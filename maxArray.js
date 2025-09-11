@@ -19,3 +19,5 @@ function findMax(arr){
 
 let arr = [21,3,4,6,92]
 console.log(findMax(arr))
+
+

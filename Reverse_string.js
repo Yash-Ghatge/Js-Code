@@ -10,14 +10,24 @@
 
 
 // Without Built In Function
+// function reverse(str){
+//     let result = "";
+//     for (let i = str.length-1; i >= 0; i--) {
+//         result =result + str[i];
+//     }
+//     return result
+// }
+
+// console.log(reverse('hello'))
+
+
 function reverse(str){
-    let result = "";
-    for (let i = str.length-1; i >= 0; i--) {
-        result =result + str[i];
+    let result = ""
+    for (let i = str.length-1; i >= 0 ; i--) {
+        result = result + str[i]
     }
     return result
 }
 
-console.log(reverse('hello'))
-
-
+let str = 'hsay'
+console.log(reverse(str))

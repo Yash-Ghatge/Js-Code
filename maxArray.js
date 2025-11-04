@@ -7,18 +7,18 @@
 // console.log(Maxarr(arr))
 
 
-function findMax(arr){
-    let max = arr[0]
-    for(let num of arr){
-        if(num>max){
-            max = num
-        }
-    }
-    return max
-}
+// function findMax(arr){
+//     let max = arr[0]
+//     for(let num of arr){
+//         if(num>max){
+//             max = num
+//         }
+//     }
+//     return max
+// }
 
-let arr = [21,3,4,6,92]
-console.log(findMax(arr))
+// let arr = [21,3,4,6,92]
+// console.log(findMax(arr))
 
 
 
@@ -35,3 +35,4 @@ function maxArr(array){
 
 let array = [21,3,4,600,82]
 console.log(findMax(array))
+

@@ -81,3 +81,25 @@ const fibonacci = (n) => {
 }
 
 console.log(fibonacci(4))
+
+function factorial(n){
+    if (n === 1) return 1
+    let result = 1
+    for (let i = 2; i <= n; i++) {
+        result = result * i
+    }
+    return result
+}
+
+console.log(factorial(4))
+
+function count(str){
+    let map ={}
+    for(let char of str){
+        map[char] = (map[char] || 0 ) + 1
+    }
+    return map
+
+}
+
+console.log(count('yash'))

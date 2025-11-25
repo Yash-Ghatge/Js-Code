@@ -43,16 +43,26 @@
 // console.log(isPalindrome('poop'))
 // console.log(isPalindrome('yash'))
 
-function isPalindrome(str){
-    let left = 0 , right = str.length-1
-    while(left<right){
+const isPalindrome = (str) => {
+    let left = 0 , right = str.length - 1
+    while (left<right) {
         if (str[left] !== str[right]) return false
-        left++
         right--
-    }
+        left++
+    } 
     return true
 }
 
+console.log(isPalindrome('poopr'))
 
-console.log(isPalindrome("poopr"))
+const maxArray = (arr) => {
+    let max = 0
+    for (const num of arr) {
+        if ( max < num) {
+            max = num
+        }
+    }
+    return max
+}
 
+console.log(maxArray([1,23,33,4]))

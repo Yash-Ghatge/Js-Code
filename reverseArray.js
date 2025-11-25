@@ -26,10 +26,9 @@
 
 
 
-
-function reverseArray(arr){
+const reverse = (arr) => {
     let left = 0 , right = arr.length-1
-    while(left<right){
+    while (left<right) {
         [arr[left],arr[right]] = [arr[right],arr[left]]
         left++
         right--
@@ -37,4 +36,4 @@ function reverseArray(arr){
     return arr
 }
 
-console.log(reverseArray([1,2,3,4]))
+console.log(reverse([1,2,3,4]))

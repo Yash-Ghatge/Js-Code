@@ -10,13 +10,25 @@
 
 
 
-function reverse(str){
-    let result = ""
+// function reverse(str){
+//     let result = ""
+//     for (let i = str.length-1; i >= 0 ; i--) {
+//         result = result + str[i]
+//     }
+//     return result
+// }
+
+// let str = 'hsay'
+// console.log(reverse(str))
+
+
+
+const reverse = (str) => {
+    let result = ''
     for (let i = str.length-1; i >= 0 ; i--) {
         result = result + str[i]
     }
     return result
 }
 
-let str = 'hsay'
-console.log(reverse(str))
+console.log(reverse('hsay'))
